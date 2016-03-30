@@ -1,4 +1,4 @@
-FROM philipgraf/meteor-pdf
+FROM jackkav/meteor-pdf
 MAINTAINER Jack Kavanagh <jack.kavanagh@digitalpublishing.cn>
 RUN apt-get update \
         && apt-get install -y --no-install-recommends \
